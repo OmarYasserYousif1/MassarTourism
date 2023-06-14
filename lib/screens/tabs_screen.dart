@@ -39,10 +39,10 @@ class _TabsScreenState extends State<TabsScreen> {
         'Screen': FavoritesScreen(widget.favoriteTrips),
         'Title': 'الرحلات المفضلة',
       },
-      {
+    /*   {
         'Screen': booking(),
         'Title': ' حجز الرحلات ',
-      },
+      }, */
       {
         'Screen': HomeForm(),
         'Title': ' الملف الشخصي',
@@ -55,34 +55,35 @@ class _TabsScreenState extends State<TabsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.brown,
         title: Text(_screens[_selectedScreenIndex]['Title']),
       ),
       drawer: AppDrawer(),
       body: _screens[_selectedScreenIndex]['Screen'],
       bottomNavigationBar: BottomNavigationBar(
         onTap: _selectScreen,
-        backgroundColor: Theme.of(context).primaryColor,
+        backgroundColor: Colors.brown,
         selectedItemColor: Theme.of(context).accentColor,
         unselectedItemColor: Colors.white,
         currentIndex: _selectedScreenIndex,
         items: [
           BottomNavigationBarItem(
-            backgroundColor: Colors.blue,
+            backgroundColor: Colors.brown,
             icon: Icon(Icons.dashboard),
             label: 'التصنيفات',
           ),
           BottomNavigationBarItem(
-            backgroundColor: Colors.blue,
+            backgroundColor: Colors.brown,
             icon: Icon(Icons.star),
             label: 'المفضلة',
           ),
-          BottomNavigationBarItem(
-            backgroundColor: Colors.blue,
+         /*  BottomNavigationBarItem(
+            backgroundColor: Colors.brown,
             icon: Icon(Icons.book_online),
             label: 'حجز الرحلات ',
-          ),
+          ), */
           BottomNavigationBarItem(
-            backgroundColor: Colors.blue,
+            backgroundColor: Colors.brown,
             icon: Icon(Icons.person),
             label: 'الملف الشخصي',
           ),

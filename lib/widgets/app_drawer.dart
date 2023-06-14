@@ -34,7 +34,7 @@ class AppDrawer extends StatelessWidget {
             width: double.infinity,
             padding: EdgeInsets.only(top: 40),
             alignment: Alignment.center,
-            color: Theme.of(context).accentColor,
+            color: Colors.brown,
             child: Text(
               'دليلك السياحي',
               style: Theme.of(context).textTheme.headline6,
@@ -50,7 +50,7 @@ class AppDrawer extends StatelessWidget {
           ),
           buildListTile(
             'الفلترة',
-            Icons.filter_list,
+             Icons.filter_list,
             () {
               Navigator.of(context)
                   .pushReplacementNamed(FiltersScreen.screenRoute);

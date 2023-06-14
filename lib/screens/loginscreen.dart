@@ -103,7 +103,7 @@ class _LoginFormState extends State<LoginForm> {
                         onPressed: login,
                       ),
                       decoration: BoxDecoration(
-                        color: Colors.blue,
+                        color: Colors.brown,
                         borderRadius: BorderRadius.circular(30.0),
                       ),
                     ),
@@ -114,7 +114,7 @@ class _LoginFormState extends State<LoginForm> {
                           Text('ليس لديك حساب ؟'),
                           TextButton(
                             style: TextButton.styleFrom(
-                              primary: Colors.lightBlue,
+                              primary: Colors.brown,
                             ),
                             child: Text('Signup'),
                             onPressed: () {

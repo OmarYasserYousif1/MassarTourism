@@ -159,7 +159,7 @@ class _HomeFormState extends State<HomeForm> {
                       onPressed: update,
                     ),
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: Colors.brown,
                       borderRadius: BorderRadius.circular(30.0),
                     ),
                   ),
@@ -184,7 +184,7 @@ class _HomeFormState extends State<HomeForm> {
                       onPressed: delete,
                     ),
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: Colors.brown,
                       borderRadius: BorderRadius.circular(30.0),
                     ),
                   ),

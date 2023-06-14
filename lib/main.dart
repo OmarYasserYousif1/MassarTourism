@@ -101,7 +101,7 @@ class _MyAppState extends State<MyApp> {
       // home: CategoriesScreen(),
       initialRoute: '/',
       routes: {
-        '/': (ctx) => TabsScreen(_favoriteTrips),
+        '/': (ctx) =>  TabsScreen(_favoriteTrips),
         CategoryTripsScreen.screenRoute: (ctx) =>
             CategoryTripsScreen(_availableTrips),
         TripDetailScreen.screenRoute: (ctx) =>

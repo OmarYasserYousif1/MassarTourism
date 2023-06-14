@@ -15,17 +15,17 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     OnboardingPage(
       imagePath: 'lib/assets/massar.png',
       title: 'مرحبا في تطبيق مسار',
-      description: 'أول تطبيق عربي للرحلات و السياحة',
+      description: 'أول تطبيق عربي مصري للرحلات و السياحة',
     ),
     OnboardingPage(
-      imagePath: 'lib/assets/massar.png',
+      imagePath: 'lib/assets/log.png',
       title: 'يمكنك معرفه الرحلات ',
-      description: 'و البرامج السياحية بالدول العربية',
+      description: 'و البرامج السياحية بجمهورية مصر العربية',
     ),
     OnboardingPage(
-      imagePath: 'lib/assets/massar.png',
+     imagePath: 'lib/assets/fav.png',
       title: 'يمكنك الاختيار بين الكثير من البرامج السياحية و الرحلات',
-      description: 'و اضافة ما ينال اعجابك لقائمة المفضلات',
+      description: 'و اضافة ما ينال اعجابك لقائمة المفضلات و الحجز',
     ),
   ];
 

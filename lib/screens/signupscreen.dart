@@ -118,7 +118,7 @@ class _SignupFormState extends State<SignupForm> {
                         onPressed: signUp,
                       ),
                       decoration: BoxDecoration(
-                        color: Colors.blue,
+                        color: Colors.brown,
                         borderRadius: BorderRadius.circular(30.0),
                       ),
                     ),
@@ -129,7 +129,7 @@ class _SignupFormState extends State<SignupForm> {
                           Text('سجل دخول؟ '),
                           TextButton(
                             style: TextButton.styleFrom(
-                              primary: Colors.blue,
+                              primary: Colors.brown,
                             ),
                             child: Text('Sign In'),
                             onPressed: () {

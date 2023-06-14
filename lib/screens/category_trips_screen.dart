@@ -45,6 +45,7 @@ class _CategoryTripsScreenState extends State<CategoryTripsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.brown,
         title: Text(categoryTitle),
       ),
       body: ListView.builder(

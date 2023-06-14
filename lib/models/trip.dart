@@ -27,6 +27,10 @@ class Trip {
   final bool isInSummer;
   final bool isInWinter;
   final bool isForFamilies;
+  final String price;
+  final String Vprice;
+  final String hotel;
+  final String Vhotel;
 
   const Trip({
     @required this.id,
@@ -41,5 +45,9 @@ class Trip {
     @required this.isInSummer,
     @required this.isInWinter,
     @required this.isForFamilies,
+    @required this.price,
+    @required this.Vprice,
+    @required this.hotel,
+    @required this.Vhotel,
   });
 }

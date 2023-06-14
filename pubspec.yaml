@@ -60,6 +60,8 @@ flutter:
      - lib/assets/palm-jumeirah-island-dubai-1.png
      - lib/assets/ra2selkhema.png
      - lib/assets/massar.png
+     - lib/assets/log.png
+     - lib/assets/fav.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
